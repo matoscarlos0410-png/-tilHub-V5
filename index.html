@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="ÚtilHUb V4 - herramientas útiles para estudiar, comprar, organizarte y resolver tareas del día a día."
+    >
+
+    <title>ÚtilHUb | Todo lo útil en un solo lugar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="header-container">
+
+        <a href="#inicio" class="logo">
+            <img
+                src="logo-utilhub.png"
+                alt="Logo ÚtilHUb"
+            >
+
+            <span>ÚtilHUb</span>
+        </a>
+
+
+        <nav class="nav">
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#herramientas">
+                Herramientas
+            </a>
+
+            <a href="#comida">
+                Comida
+            </a>
+
+            <a href="#compras">
+                Compras
+            </a>
+
+            <a href="#cerca">
+                Cerca de mí
+            </a>
+
+        </nav>
+
+
+        <button
+            class="login-btn"
+            id="loginBtn"
+        >
+            👤 Mi espacio
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     INICIO
+===================================================== -->
+
+<main>
+
+<section
+    id="inicio"
+    class="hero"
+>
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            ✦ ÚtilHUb V4
+        </span>
+
+
+        <h1>
+            Todo lo útil,
+            <span>en un solo lugar.</span>
+        </h1>
+
+
+        <p class="hero-text">
+
+            Herramientas para estudiar, organizarte,
+            calcular, buscar comida, encontrar tiendas
+            y resolver necesidades del día a día.
+
+        </p>
+
+
+        <!-- BUSCADOR -->
+
+        <div class="main-search">
+
+            <span>🔎</span>
+
+            <input
+                type="text"
+                id="mainSearch"
+                placeholder="¿Qué necesitas?"
+                autocomplete="off"
+            >
+
+            <button id="searchBtn">
+                Buscar
+            </button>
+
+        </div>
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#herramientas"
+                class="primary-btn"
+            >
+                🚀 Explorar herramientas
+            </a>
+
+            <a
+                href="#comida"
+                class="secondary-btn"
+            >
+                🍔 Buscar comida
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ELEMENTO VISUAL -->
+
+    <div class="hero-visual">
+
+        <div class="orbit orbit-1"></div>
+
+        <div class="orbit orbit-2"></div>
+
+        <div class="orbit orbit-3"></div>
+
+        <div class="hub-circle">
+
+            <img
+                src="logo-utilhub.png"
+                alt="ÚtilHUb"
+            >
+
+        </div>
+
+        <span class="floating-icon icon-1">
+            🧮
+        </span>
+
+        <span class="floating-icon icon-2">
+            🛒
+        </span>
+
+        <span class="floating-icon icon-3">
+            🍔
+        </span>
+
+        <span class="floating-icon icon-4">
+            📅
+        </span>
+
+        <span class="floating-icon icon-5">
+            📍
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ACCESOS RÁPIDOS
+===================================================== -->
+
+<section class="quick-section">
+
+    <div class="section-title">
+
+        <span>ACCESOS RÁPIDOS</span>
+
+        <h2>
+            ¿Qué quieres hacer?
+        </h2>
+
+    </div>
+
+
+    <div class="quick-grid">
+
+        <a href="#herramientas" class="quick-card">
+            <div>🧰</div>
+            <strong>Herramientas</strong>
+            <small>Utilidades</small>
+        </a>
+
+
+        <a href="#comida" class="quick-card">
+            <div>🍔</div>
+            <strong>Comida</strong>
+            <small>Busca dónde pedir</small>
+        </a>
+
+
+        <a href="#compras" class="quick-card">
+            <div>🛒</div>
+            <strong>Compras</strong>
+            <small>Busca productos</small>
+        </a>
+
+
+        <a href="#cerca" class="quick-card">
+            <div>📍</div>
+            <strong>Cerca de mí</strong>
+            <small>Encuentra lugares</small>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     HERRAMIENTAS
+===================================================== -->
+
+<section
+    id="herramientas"
+    class="section"
+>
+
+    <div class="section-title">
+
+        <span>20 HERRAMIENTAS</span>
+
+        <h2>
+            Herramientas para tu día
+        </h2>
+
+        <p>
+            Úsalas directamente desde ÚtilHUb.
+        </p>
+
+    </div>
+
+
+    <div
+        class="tools-grid"
+        id="toolsGrid"
+    >
+
+
+        <!-- 1 -->
+
+        <article
+            class="tool-card"
+            data-name="calculadora"
+            data-tool="calculator"
+        >
+
+            <div class="tool-number">
+                01
+            </div>
+
+            <div class="tool-icon">
+                🧮
+            </div>
+
+            <h3>
+                Calculadora
+            </h3>
+
+            <p>
+                Realiza operaciones rápidamente.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 2 -->
+
+        <article
+            class="tool-card"
+            data-name="porcentajes porcentaje"
+            data-tool="percentage"
+        >
+
+            <div class="tool-number">
+                02
+            </div>
+
+            <div class="tool-icon">
+                %
+            </div>
+
+            <h3>
+                Porcentajes
+            </h3>
+
+            <p>
+                Calcula porcentajes fácilmente.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 3 -->
+
+        <article
+            class="tool-card"
+            data-name="descuentos descuento"
+            data-tool="discount"
+        >
+
+            <div class="tool-number">
+                03
+            </div>
+
+            <div class="tool-icon">
+                🏷️
+            </div>
+
+            <h3>
+                Descuentos
+            </h3>
+
+            <p>
+                Calcula cuánto pagarás.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 4 -->
+
+        <article
+            class="tool-card"
+            data-name="convertidor unidades"
+            data-tool="converter"
+        >
+
+            <div class="tool-number">
+                04
+            </div>
+
+            <div class="tool-icon">
+                🔄
+            </div>
+
+            <h3>
+                Convertidor
+            </h3>
+
+            <p>
+                Convierte unidades comunes.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 5 -->
+
+        <article
+            class="tool-card"
+            data-name="temperatura grados celsius fahrenheit"
+            data-tool="temperature"
+        >
+
+            <div class="tool-number">
+                05
+            </div>
+
+            <div class="tool-icon">
+                🌡️
+            </div>
+
+            <h3>
+                Temperatura
+            </h3>
+
+            <p>
+                Convierte °C y °F.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 6 -->
+
+        <article
+            class="tool-card"
+            data-name="calculadora promedio notas"
+            data-tool="average"
+        >
+
+            <div class="tool-number">
+                06
+            </div>
+
+            <div class="tool-icon">
+                📊
+            </div>
+
+            <h3>
+                Promedio
+            </h3>
+
+            <p>
+                Calcula el promedio de números.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 7 -->
+
+        <article
+            class="tool-card"
+            data-name="cronometro stopwatch"
+            data-tool="stopwatch"
+        >
+
+            <div class="tool-number">
+                07
+            </div>
+
+            <div class="tool-icon">
+                ⏱️
+            </div>
+
+            <h3>
+                Cronómetro
+            </h3>
+
+            <p>
+                Mide el tiempo.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 8 -->
+
+        <article
+            class="tool-card"
+            data-name="temporizador timer"
+            data-tool="timer"
+        >
+
+            <div class="tool-number">
+                08
+            </div>
+
+            <div class="tool-icon">
+                ⏳
+            </div>
+
+            <h3>
+                Temporizador
+            </h3>
+
+            <p>
+                Programa una cuenta regresiva.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 9 -->
+
+        <article
+            class="tool-card"
+            data-name="notas note"
+            data-tool="notes"
+        >
+
+            <div class="tool-number">
+                09
+            </div>
+
+            <div class="tool-icon">
+                📝
+            </div>
+
+            <h3>
+                Notas
+            </h3>
+
+            <p>
+                Guarda tus apuntes en el dispositivo.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 10 -->
+
+        <article
+            class="tool-card"
+            data-name="tareas lista tareas"
+            data-tool="tasks"
+        >
+
+            <div class="tool-number">
+                10
+            </div>
+
+            <div class="tool-icon">
+                ✅
+            </div>
+
+            <h3>
+                Tareas
+            </h3>
+
+            <p>
+                Organiza lo que tienes pendiente.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 11 -->
+
+        <article
+            class="tool-card"
+            data-name="lista compras supermercado"
+            data-tool="shoppingList"
+        >
+
+            <div class="tool-number">
+                11
+            </div>
+
+            <div class="tool-icon">
+                🛒
+            </div>
+
+            <h3>
+                Lista de compras
+            </h3>
+
+            <p>
+                Organiza tus compras.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 12 -->
+
+        <article
+            class="tool-card"
+            data-name="gastos presupuesto dinero"
+            data-tool="expenses"
+        >
+
+            <div class="tool-number">
+                12
+            </div>
+
+            <div class="tool-icon">
+                💰
+            </div>
+
+            <h3>
+                Gastos
+            </h3>
+
+            <p>
+                Calcula y organiza tus gastos.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 13 -->
+
+        <article
+            class="tool-card"
+            data-name="fecha contador dias"
+            data-tool="dateCounter"
+        >
+
+            <div class="tool-number">
+                13
+            </div>
+
+            <div class="tool-icon">
+                📅
+            </div>
+
+            <h3>
+                Contador de días
+            </h3>
+
+            <p>
+                Calcula días entre fechas.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 14 -->
+
+        <article
+            class="tool-card"
+            data-name="numero aleatorio"
+            data-tool="random"
+        >
+
+            <div class="tool-number">
+                14
+            </div>
+
+            <div class="tool-icon">
+                🎲
+            </div>
+
+            <h3>
+                Número aleatorio
+            </h3>
+
+            <p>
+                Genera un número al azar.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 15 -->
+
+        <article
+            class="tool-card"
+            data-name="dado"
+            data-tool="dice"
+        >
+
+            <div class="tool-number">
+                15
+            </div>
+
+            <div class="tool-icon">
+                🎲
+            </div>
+
+            <h3>
+                Lanzar dado
+            </h3>
+
+            <p>
+                Lanza un dado virtual.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 16 -->
+
+        <article
+            class="tool-card"
+            data-name="contraseña password seguridad"
+            data-tool="password"
+        >
+
+            <div class="tool-number">
+                16
+            </div>
+
+            <div class="tool-icon">
+                🔐
+            </div>
+
+            <h3>
+                Contraseña segura
+            </h3>
+
+            <p>
+                Genera una contraseña aleatoria.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 17 -->
+
+        <article
+            class="tool-card"
+            data-name="codigo qr"
+            data-tool="qr"
+        >
+
+            <div class="tool-number">
+                17
+            </div>
+
+            <div class="tool-icon">
+                ▦
+            </div>
+
+            <h3>
+                Código QR
+            </h3>
+
+            <p>
+                Crea un QR a partir de un texto.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 18 -->
+
+        <article
+            class="tool-card"
+            data-name="diccionario palabras"
+            data-tool="dictionary"
+        >
+
+            <div class="tool-number">
+                18
+            </div>
+
+            <div class="tool-icon">
+                📖
+            </div>
+
+            <h3>
+                Diccionario
+            </h3>
+
+            <p>
+                Consulta significados.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 19 -->
+
+        <article
+            class="tool-card"
+            data-name="organizador estudio"
+            data-tool="study"
+        >
+
+            <div class="tool-number">
+                19
+            </div>
+
+            <div class="tool-icon">
+                📚
+            </div>
+
+            <h3>
+                Organizador de estudio
+            </h3>
+
+            <p>
+                Planifica tus sesiones de estudio.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+
+        <!-- 20 -->
+
+        <article
+            class="tool-card"
+            data-name="consejos tips"
+            data-tool="tips"
+        >
+
+            <div class="tool-number">
+                20
+            </div>
+
+            <div class="tool-icon">
+                💡
+            </div>
+
+            <h3>
+                Consejos útiles
+            </h3>
+
+            <p>
+                Ideas prácticas para el día.
+            </p>
+
+            <button>
+                Abrir
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COMIDA
+===================================================== -->
+
+<section
+    id="comida"
+    class="service-section"
+>
+
+    <div class="service-content">
+
+        <div>
+
+            <span class="section-label">
+                🍔 COMIDA
+            </span>
+
+            <h2>
+                Encuentra dónde comer
+            </h2>
+
+            <p>
+                Busca restaurantes y lugares de comida.
+                Tú decides dónde pedir y realizas el pedido
+                directamente con el establecimiento o servicio
+                que elijas.
+            </p>
+
+        </div>
+
+
+        <div class="service-box">
+
+            <input
+                type="text"
+                id="foodSearch"
+                placeholder="Ej.: hamburguesas, pizza, ceviche..."
+            >
+
+            <input
+                type="text"
+                id="foodLocation"
+                placeholder="Ciudad o zona"
+            >
+
+            <button id="foodBtn">
+                🔎 Buscar comida
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COMPRAS
+===================================================== -->
+
+<section
+    id="compras"
+    class="service-section shopping-section"
+>
+
+    <div class="service-content">
+
+        <div>
+
+            <span class="section-label">
+                🛒 COMPRAS
+            </span>
+
+            <h2>
+                Encuentra lo que necesitas
+            </h2>
+
+            <p>
+                Busca productos, tiendas o supermercados.
+                ÚtilHUb te ayuda a encontrar opciones;
+                tú eliges dónde comprar y realizas la compra.
+            </p>
+
+        </div>
+
+
+        <div class="service-box">
+
+            <input
+                type="text"
+                id="productSearch"
+                placeholder="Ej.: zapatillas, cuadernos, laptop..."
+            >
+
+            <input
+                type="text"
+                id="productLocation"
+                placeholder="Ciudad o zona"
+            >
+
+            <button id="productBtn">
+                🛍️ Buscar productos
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CERCA DE MÍ
+===================================================== -->
+
+<section
+    id="cerca"
+    class="section"
+>
+
+    <div class="section-title">
+
+        <span>
+            📍 SERVICIOS
+        </span>
+
+        <h2>
+            Busca lugares cerca de ti
+        </h2>
+
+        <p>
+            Selecciona lo que necesitas y abre una búsqueda
+            de lugares cercanos.
+        </p>
+
+    </div>
+
+
+    <div class="near-grid">
+
+        <button
+            class="near-card"
+            data-place="restaurantes"
+        >
+            🍽️
+            <strong>Restaurantes</strong>
+        </button>
+
+
+        <button
+            class="near-card"
+            data-place="supermercados"
+        >
+            🛒
+            <strong>Supermercados</strong>
+        </button>
+
+
+        <button
+            class="near-card"
+            data-place="farmacias"
+        >
+            💊
+            <strong>Farmacias</strong>
+        </button>
+
+
+        <button
+            class="near-card"
+            data-place="tiendas"
+        >
+            🏪
+            <strong>Tiendas</strong>
+        </button>
+
+
+        <button
+            class="near-card"
+            data-place="bancos"
+        >
+            🏦
+            <strong>Bancos</strong>
+        </button>
+
+
+        <button
+            class="near-card"
+            data-place="servicios técnicos"
+        >
+            🔧
+            <strong>Servicios técnicos</strong>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BENEFICIOS
+===================================================== -->
+
+<section class="benefits">
+
+    <div class="section-title">
+
+        <span>
+            ¿POR QUÉ ÚTILHUB?
+        </span>
+
+        <h2>
+            Una página para muchas necesidades
+        </h2>
+
+    </div>
+
+
+    <div class="benefits-grid">
+
+        <div class="benefit">
+            <span>⚡</span>
+            <h3>Rápido</h3>
+            <p>
+                Herramientas accesibles desde el navegador.
+            </p>
+        </div>
+
+
+        <div class="benefit">
+            <span>🔒</span>
+            <h3>Simple</h3>
+            <p>
+                Sin procesos complicados para utilizar las herramientas.
+            </p>
+        </div>
+
+
+        <div class="benefit">
+            <span>🌐</span>
+            <h3>Todo en uno</h3>
+            <p>
+                Utilidades, compras, comida y servicios.
+            </p>
+        </div>
+
+
+        <div class="benefit">
+            <span>👤</span>
+            <h3>Tú decides</h3>
+            <p>
+                ÚtilHUb no compra ni realiza pedidos por ti.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     MODAL
+===================================================== -->
+
+<div
+    class="modal"
+    id="toolModal"
+    aria-hidden="true"
+>
+
+    <div class="modal-content">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+            aria-label="Cerrar"
+        >
+            ×
+        </button>
+
+        <div id="modalBody"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <img
+                src="logo-utilhub.png"
+                alt="ÚtilHUb"
+            >
+
+            <div>
+
+                <strong>
+                    ÚtilHUb
+                </strong>
+
+                <p>
+                    Todo lo útil, en un solo lugar.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#herramientas">
+                Herramientas
+            </a>
+
+            <a href="#comida">
+                Comida
+            </a>
+
+            <a href="#compras">
+                Compras
+            </a>
+
+            <a href="#cerca">
+                Cerca de mí
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 ÚtilHUb — Proyecto web
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
